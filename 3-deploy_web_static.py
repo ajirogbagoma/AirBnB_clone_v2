@@ -13,7 +13,7 @@ from fabric.api import env, put, run, local
 from datetime import datetime
 
 env.user = "ubuntu"
-env.hosts = ["35.170.73.158", "35.170.73.117"]
+env.hosts = ["3.80.19.173", "100.25.159.110"]
 
 
 def do_pack():
